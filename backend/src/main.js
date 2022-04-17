@@ -177,10 +177,14 @@ const addAttributes = (_element) => {
 };
 
 const loadLayerImg = async (_layer) => {
+  try{
   return new Promise(async (resolve) => {
     const image = await loadImage(`${_layer.selectedElement.path}`);
     resolve({ layer: _layer, loadedImage: image });
   });
+} catch (errror){
+  console.error("error loading image: " ,error)
+}
 };
 
 const addText = (_sig, x, y, size) => {
