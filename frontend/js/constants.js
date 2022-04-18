@@ -1,4 +1,4 @@
-const contractAddress = "0x8dA062af0fb5f9266cFc9c315383735d2D6858f5"; //Replace with your own contract address
+const contractAddress = "0x8701358f7C2B0F701D8C3077Ad5c0CbE06376DdD"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the WEIRD-WEAPONS NFT Project!!";
