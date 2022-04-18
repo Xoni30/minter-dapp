@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Weird-weapons";
+const namePrefix = "Weird-weapons-og";
 const description = "just weapons with cool complicated algorithmic backgrounds";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -46,8 +46,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'weird-weapons';
-const CONTRACT_SYMBOL = 'WW';
+const CONTRACT_NAME = 'weird-weapons-og';
+const CONTRACT_SYMBOL = 'WWog';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xeB02242B879628336A67ACe667e6baefFA58B422';
 const TREASURY_ADDRESS = '0xeB02242B879628336A67ACe667e6baefFA58B422';
@@ -96,7 +96,7 @@ const solanaMetadata = {
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
+      share: 10,
     },
   ],
 };
